@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "pug": "pug ./projects_details/magicon_landing_portfolio.pug -w -P "
+    "pug": "pug ./projects_details/pomodoro_vue_portfolio.pug -w -P "
   },
   "keywords": [],
   "author": "",

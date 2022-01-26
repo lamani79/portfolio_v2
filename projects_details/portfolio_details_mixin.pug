@@ -28,13 +28,6 @@ mixin portfolio_details_page (title,category,client,date,url,tech,description,im
                                     each item in img_list_url
                                         .swiper-slide
                                             img(src=item, alt="")
-                                    
-                                    //- .swiper-slide
-                                    //-     img(src="../assets/img/portfolio/portfolio-details-1.jpg", alt="")
-                                    //- .swiper-slide
-                                    //-     img(src="../assets/img/portfolio/portfolio-details-1.jpg", alt="")
-                                    //- .swiper-slide
-                                    //-     img(src="../assets/img/portfolio/portfolio-details-1.jpg", alt="")
 
                                 .swiper-pagination
                         div(class="col-lg-4 portfolio-info")
@@ -47,8 +40,8 @@ mixin portfolio_details_page (title,category,client,date,url,tech,description,im
                                     strong Project URL: 
                                     a(href=`${url}` target="_blank") project link (just the preview)
                                 li #[strong Tech]: #{tech}
-                            p= description 
-    
+                            p= description
+                          
     script(src="../assets/vendor/bootstrap/js/bootstrap.bundle.min.js") 
     script(src="../assets/vendor/glightbox/js/glightbox.min.js") 
     script(src="../assets/vendor/swiper/swiper-bundle.min.js") 
