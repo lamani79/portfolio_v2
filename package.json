@@ -4,9 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "pug": "pug ./text.pug -w -P "
-
+    "pug": "pug ./projects_details/magicon_landing_portfolio.pug -w -P "
   },
   "keywords": [],
   "author": "",

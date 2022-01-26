@@ -1,0 +1,55 @@
+mixin portfolio_details_page (title,category,client,date,url,tech,description,img_list_url)
+    doctype 
+    html 
+      head
+        meta(charset='utf-8')
+        meta(name='description', content='')
+        meta(name='viewport', content='width=device-width, initial-scale=1')
+        //- googel fonts
+        link(rel="stylesheet", href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i")
+        //- logo font
+        link(rel="stylesheet", href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap")
+        //- css lib
+        link(rel="stylesheet", href="../assets/vendor/bootstrap/css/bootstrap.min.css")
+        link(rel="stylesheet", href="../assets/vendor/swiper/swiper-bundle.min.css")
+        //- main css
+        link(rel="stylesheet", href="../assets/css/style.css")
+        link(rel="stylesheet", href="./css/main.css")
+
+    body 
+        main#main
+            div(id="portfolio-details" class="portfolio-details")
+                .container 
+                   div(class="row portfolio-details-content")
+                        div(class="col-lg-8")
+                            h2(class="portfolio-title")=title 
+                            div(class="portfolio-details-slider swiper")
+                                div(class="swiper-wrapper align-items-center")
+                                    each item in img_list_url
+                                        .swiper-slide
+                                            img(src=item, alt="")
+                                    
+                                    //- .swiper-slide
+                                    //-     img(src="../assets/img/portfolio/portfolio-details-1.jpg", alt="")
+                                    //- .swiper-slide
+                                    //-     img(src="../assets/img/portfolio/portfolio-details-1.jpg", alt="")
+                                    //- .swiper-slide
+                                    //-     img(src="../assets/img/portfolio/portfolio-details-1.jpg", alt="")
+
+                                .swiper-pagination
+                        div(class="col-lg-4 portfolio-info")
+                            h3 Project information
+                            ul
+                                li #[strong Category]: #{category}
+                                li #[strong Client]: : #{client}
+                                li #[strong Project date]: #{date} 
+                                li 
+                                    strong Project URL: 
+                                    a(href=`${url}` target="_blank") project link (just the preview)
+                                li #[strong Tech]: #{tech}
+                            p= description 
+    
+    script(src="../assets/vendor/bootstrap/js/bootstrap.bundle.min.js") 
+    script(src="../assets/vendor/glightbox/js/glightbox.min.js") 
+    script(src="../assets/vendor/swiper/swiper-bundle.min.js") 
+    script(src="../assets/js/main.js") 

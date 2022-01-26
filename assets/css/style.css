@@ -102,6 +102,9 @@ h1, h2, h3, h4, h5, h6 {
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
+#txt_logo{
+  font-family: 'Architects Daughter', cursive;
+}
 #header {
   transition: ease-in-out 0.3s;
   position: relative;
@@ -855,6 +858,9 @@ section .container {
 /*--------------------------------------------------------------
 # Portfolio Details
 --------------------------------------------------------------*/
+.swiper-slide img{
+  max-height: 570px;
+}
 .portfolio-details {
   padding-top: 40px;
   background: rgba(0, 0, 0, 0.8);
@@ -870,6 +876,7 @@ section .container {
   padding-bottom: 40px;
 }
 .portfolio-details .portfolio-title {
+  font-family: 'Architects Daughter', cursive;
   font-size: 26px;
   font-weight: 700;
   margin-bottom: 20px;

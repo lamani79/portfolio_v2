@@ -1,0 +1,18 @@
+include ./portfolio_details_mixin.pug
+-
+    var title= "Magicon Landing Page"
+    var category= "landing page"
+    var client= "Seyfeddine Beroual"
+    var date= "17 Dec 2021"
+    var url= "https://zen-fermi-5883b0.netlify.app"
+    var tech= "html/css/js/tailwindcss"
+    var description= "I created this landing page for my client where I was asked to convert my design into a landing page code with the exact sizes included in the design.I had a lot of fun doing this project because I made everything from scratch without relying on any external framework or libraries.Also the client was very satisfied with the work."
+    var img_list_url= [
+        '../assets/img/portfolio/portfolio-details-1.jpg',
+        '../assets/img/portfolio/portfolio-details-2.jpg',
+        '../assets/img/portfolio/portfolio-details-3.jpg',
+
+   
+    ]
+
++portfolio_details_page(title,category,client,date,url,tech,description,img_list_url)
