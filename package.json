@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "pug": "pug ./projects_details/type_portfolio.pug -w -P "
+    "pug": "pug ./projects_details/to_do_chrom_ext_portfolio.pug -w -P "
   },
   "keywords": [],
   "author": "",
