@@ -1093,6 +1093,9 @@ section .container {
 /* ##########################################
   style I add it  
 */
+.credits{
+  display: none;
+}
 .section_desc_title{
   font-family: 'Architects Daughter', cursive;
 }
