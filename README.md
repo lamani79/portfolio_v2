@@ -3,7 +3,7 @@
 [display the protfolio](https://mystifying-agnesi-f90e06.netlify.app)    
 
 
-## all the text below is auto generated I will edit it later
+## all the text bellow is auto generated I will edit it later
 ### \################# **************** \#######################
 [![N|Solid](https://cldup.com/dTxpPi9lDf.thumb.png)](https://nodesource.com/products/nsolid)
 
