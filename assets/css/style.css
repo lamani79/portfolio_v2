@@ -1146,3 +1146,36 @@ section .container {
   font-size: small;
   cursor: not-allowed;
 }
+
+
+/* ===== Scrollbar CSS ===== */
+
+  * {
+    scrollbar-width: auto;
+    scrollbar-color: #18d26e #000000;
+    scroll-behavior: smooth;
+    
+  }
+ 
+  ::-webkit-scrollbar-thumb:hover {
+    background: #18d26fbb; 
+  }
+  
+
+  *::-webkit-scrollbar {
+    width: 12px;
+  }
+
+
+  *::-webkit-scrollbar-track {
+    background: #000000;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #18d26e;
+    border-radius: 10px;
+  }
+
+
+
+
