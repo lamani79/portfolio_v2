@@ -1194,6 +1194,11 @@ section .container {
 #text_effect_container {
   display: flex;
 }
+@media screen and (max-width: 448px) {
+  #text_effect_container {
+    flex-direction: column;
+  }
+}
 #text_effect_container h2:first-child {
   margin-right: 5px;
 }
