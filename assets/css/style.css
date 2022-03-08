@@ -8,13 +8,15 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
-.tech_I_worked_with svg,.icon-box img,.icon-box .icon{
+.tech_I_worked_with svg,
+.icon-box img,
+.icon-box .icon {
   width: 32px;
   height: 32px;
   padding-right: 10px;
-    line-height: 1;
+  line-height: 1;
 }
-.hero_img{
+.hero_img {
   position: fixed;
   top: 0;
   left: 0;
@@ -23,20 +25,20 @@
   height: 100vh;
   width: 100vw;
   z-index: -1;
-  background:  url("../img/hero_img.png")  right no-repeat;
-   background-size: cover;
+  background: url("../img/hero_img.png") right no-repeat;
+  background-size: cover;
 }
 /* bigger than 1024px */
 @media (min-width: 1024px) {
-  .hero_img{
+  .hero_img {
     background-size: contain;
   }
 }
-.hero_img img{
+.hero_img img {
   width: 100%;
 }
 
-#portfolio-details .portfolio-details-slider img{
+#portfolio-details .portfolio-details-slider img {
   /* max-width: 600px;
   max-height: 800px; */
   width: 100%;
@@ -51,8 +53,6 @@
   align-items: center;
 } */
 
-
-
 body {
   font-family: "Open Sans", sans-serif;
   background-color: #040404;
@@ -60,17 +60,15 @@ body {
   position: relative;
   /* background: transparent; */
   background-color: black;
-
 }
- body::before {
+body::before {
   content: "";
-  position: fixed; 
+  position: fixed;
   /* background: #040404 url("../img/animation_640_ky7c6udi.gif") top right no-repeat; */
   /* background: #111 url("../img/gb_gif_original.gif")  right no-repeat; */
   /* background: url("../img/wallpaper2you_200617.jpg"); */
   background: #151517;
 
-   
   background-size: cover;
   background-position: top right;
   left: 0;
@@ -78,7 +76,7 @@ body {
   top: 0;
   height: 100vh;
   z-index: -1;
-} 
+}
 @media (min-width: 1024px) {
   body::before {
     background-attachment: fixed;
@@ -96,15 +94,20 @@ a:hover {
   text-decoration: none;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: "Raleway", sans-serif;
 }
 
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
-#txt_logo{
-  font-family: 'Architects Daughter', cursive;
+#txt_logo {
+  font-family: "Architects Daughter", cursive;
 }
 #header {
   transition: ease-in-out 0.3s;
@@ -126,7 +129,8 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
   font-family: "Poppins", sans-serif;
 }
-#header h1 a, #header h1 a:hover {
+#header h1 a,
+#header h1 a:hover {
   color: #fff;
   line-height: 1;
   display: inline-block;
@@ -192,7 +196,8 @@ h1, h2, h3, h4, h5, h6 {
   right: 0;
   background: rgba(0, 0, 0, 0.9);
 }
-#header.header-top .social-links, #header.header-top h2 {
+#header.header-top .social-links,
+#header.header-top h2 {
   display: none;
 }
 #header.header-top h1 {
@@ -238,7 +243,8 @@ h1, h2, h3, h4, h5, h6 {
 .navbar li + li {
   margin-left: 30px;
 }
-.navbar a, .navbar a:focus {
+.navbar a,
+.navbar a:focus {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -250,7 +256,8 @@ h1, h2, h3, h4, h5, h6 {
   white-space: nowrap;
   transition: 0.3s;
 }
-.navbar a i, .navbar a:focus i {
+.navbar a i,
+.navbar a:focus i {
   font-size: 12px;
   line-height: 0;
   margin-left: 5px;
@@ -267,11 +274,16 @@ h1, h2, h3, h4, h5, h6 {
   width: 0px;
   transition: all 0.3s ease-in-out 0s;
 }
-.navbar a:hover:before, .navbar li:hover > a:before, .navbar .active:before {
+.navbar a:hover:before,
+.navbar li:hover > a:before,
+.navbar .active:before {
   visibility: visible;
   width: 25px;
 }
-.navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
+.navbar a:hover,
+.navbar .active,
+.navbar .active:focus,
+.navbar li:hover > a {
   color: #fff;
 }
 
@@ -334,7 +346,8 @@ h1, h2, h3, h4, h5, h6 {
 .navbar-mobile li + li {
   margin: 0;
 }
-.navbar-mobile a, .navbar-mobile a:focus {
+.navbar-mobile a,
+.navbar-mobile a:focus {
   font-size: 16px;
   position: relative;
 }
@@ -530,7 +543,8 @@ section .container {
 /*--------------------------------------------------------------
 # Testimonials
 --------------------------------------------------------------*/
-.testimonials .testimonials-carousel, .testimonials .testimonials-slider {
+.testimonials .testimonials-carousel,
+.testimonials .testimonials-slider {
   overflow: hidden;
 }
 .testimonials .testimonial-item {
@@ -556,7 +570,8 @@ section .container {
   color: #999;
   margin: 0 0 0 45px;
 }
-.testimonials .testimonial-item .quote-icon-left, .testimonials .testimonial-item .quote-icon-right {
+.testimonials .testimonial-item .quote-icon-left,
+.testimonials .testimonial-item .quote-icon-right {
   color: rgba(255, 255, 255, 0.25);
   font-size: 26px;
 }
@@ -713,7 +728,8 @@ section .container {
 .services .icon-box:hover .icon::before {
   background: #35e888;
 }
-.services .icon-box:hover h4 a, .services .icon-box:hover p {
+.services .icon-box:hover h4 a,
+.services .icon-box:hover p {
   color: #fff;
 }
 
@@ -745,7 +761,8 @@ section .container {
   transition: all 0.3s ease-in-out;
   border-radius: 4px;
 }
-.portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
+.portfolio #portfolio-flters li:hover,
+.portfolio #portfolio-flters li.filter-active {
   background: #18d26e;
 }
 .portfolio #portfolio-flters li:last-child {
@@ -859,7 +876,7 @@ section .container {
 /*--------------------------------------------------------------
 # Portfolio Details
 --------------------------------------------------------------*/
-.swiper-slide img{
+.swiper-slide img {
   max-height: 570px;
 }
 .portfolio-details {
@@ -877,7 +894,7 @@ section .container {
   padding-bottom: 40px;
 }
 .portfolio-details .portfolio-title {
-  font-family: 'Architects Daughter', cursive;
+  font-family: "Architects Daughter", cursive;
   font-size: 26px;
   font-weight: 700;
   margin-bottom: 20px;
@@ -1007,7 +1024,8 @@ section .container {
   -webkit-animation: animate-loading 1s linear infinite;
   animation: animate-loading 1s linear infinite;
 }
-.contact .php-email-form input, .contact .php-email-form textarea {
+.contact .php-email-form input,
+.contact .php-email-form textarea {
   border-radius: 0;
   box-shadow: none;
   font-size: 14px;
@@ -1016,14 +1034,17 @@ section .container {
   transition: 0.3s;
   color: #fff;
 }
-.contact .php-email-form input:focus, .contact .php-email-form textarea:focus {
+.contact .php-email-form input:focus,
+.contact .php-email-form textarea:focus {
   background-color: rgba(255, 255, 255, 0.11);
 }
-.contact .php-email-form input::-moz-placeholder, .contact .php-email-form textarea::-moz-placeholder {
+.contact .php-email-form input::-moz-placeholder,
+.contact .php-email-form textarea::-moz-placeholder {
   color: rgba(255, 255, 255, 0.3);
   opacity: 1;
 }
-.contact .php-email-form input::placeholder, .contact .php-email-form textarea::placeholder {
+.contact .php-email-form input::placeholder,
+.contact .php-email-form textarea::placeholder {
   color: rgba(255, 255, 255, 0.3);
   opacity: 1;
 }
@@ -1033,7 +1054,7 @@ section .container {
 .contact .php-email-form textarea {
   padding: 12px 15px;
 }
-.contact .php-email-form button[type=submit] {
+.contact .php-email-form button[type="submit"] {
   background: #18d26e;
   border: 0;
   padding: 10px 30px;
@@ -1041,7 +1062,7 @@ section .container {
   transition: 0.4s;
   border-radius: 4px;
 }
-.contact .php-email-form button[type=submit]:hover {
+.contact .php-email-form button[type="submit"]:hover {
   background: #15bb62;
 }
 @-webkit-keyframes animate-loading {
@@ -1093,16 +1114,16 @@ section .container {
 /* ##########################################
   style I add it  
 */
-.credits{
+.credits {
   display: none;
 }
-.section_desc_title{
-  font-family: 'Architects Daughter', cursive;
+.section_desc_title {
+  font-family: "Architects Daughter", cursive;
 }
-#resume{
+#resume {
   transition: ease-in-out 0s;
 }
-.not_yet{
+.not_yet {
   position: absolute;
   top: 0;
   left: 0;
@@ -1111,32 +1132,31 @@ section .container {
   width: 100%;
   height: 100%;
   z-index: 99;
-  
 
-  background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.1),
+    rgba(255, 255, 255, 0)
+  );
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
   border-radius: 20px;
-  border:1px solid rgba(255, 255, 255, 0.18);
+  border: 1px solid rgba(255, 255, 255, 0.18);
   box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
 
   display: grid;
   place-content: center;
-
-
 }
-.not_yet .content{
-  
+.not_yet .content {
 }
-.not_yet h2{
-  font-family: 'Architects Daughter', cursive;
+.not_yet h2 {
+  font-family: "Architects Daughter", cursive;
   background: #151517;
   padding: 20px;
   border-radius: 10px;
-
 }
 
-.contact .php-email-form button[type=submit] {
+.contact .php-email-form button[type="submit"] {
   /* background: #18d26e;
   border: 0;
   padding: 10px 30px;
@@ -1147,35 +1167,33 @@ section .container {
   cursor: not-allowed;
 }
 
-
 /* ===== Scrollbar CSS ===== */
 
-  * {
-    scrollbar-width: auto;
-    scrollbar-color: #18d26e #000000;
-    scroll-behavior: smooth;
-    
-  }
- 
-  ::-webkit-scrollbar-thumb:hover {
-    background: #18d26fbb; 
-  }
-  
+* {
+  scrollbar-width: auto;
+  scrollbar-color: #18d26e #000000;
+  scroll-behavior: smooth;
+}
 
-  *::-webkit-scrollbar {
-    width: 12px;
-  }
+::-webkit-scrollbar-thumb:hover {
+  background: #18d26fbb;
+}
 
+*::-webkit-scrollbar {
+  width: 12px;
+}
 
-  *::-webkit-scrollbar-track {
-    background: #000000;
-  }
+*::-webkit-scrollbar-track {
+  background: #000000;
+}
 
-  *::-webkit-scrollbar-thumb {
-    background-color: #18d26e;
-    border-radius: 10px;
-  }
-
-
-
-
+*::-webkit-scrollbar-thumb {
+  background-color: #18d26e;
+  border-radius: 10px;
+}
+#text_effect_container {
+  display: flex;
+}
+#text_effect_container h2:first-child {
+  margin-right: 5px;
+}
