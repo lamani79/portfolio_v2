@@ -2,6 +2,7 @@
 @import "../vendor/bootstrap-icons/bootstrap-icons.css";
 @import "../vendor/boxicons/css/boxicons.min.css";
 @import "../vendor/glightbox/css/glightbox.min.css";
+/* for icons in tech */
 @import "../vendor/remixicon/remixicon.css";
 @import "../vendor/swiper/swiper-bundle.min.css";
 
@@ -21,7 +22,7 @@
 .tech_I_worked_with svg,
 .icon-box img,
 .icon-box .icon {
-  width: 32px;
+  max-width: 45px;
   height: 32px;
   padding-right: 10px;
   line-height: 1;
