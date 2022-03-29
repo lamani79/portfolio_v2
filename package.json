@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "live-server ./",
-    "pug": "pug ./projects_details/to_do_chrom_ext_portfolio.pug -w -P ",
+    "pug": "pug ./projects_details/*.pug -w -P ",
     "purge-bootstrap": "purgecss --css ./assets/vendor/bootstrap/**/*.css --content ./*.html ./*/*.html -o ./dist"
   },
   "keywords": [],
